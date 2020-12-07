@@ -1,4 +1,4 @@
-button{
+.button{
     display: inline-block;
     padding: 12px 6px;
     border-radius: 4px;
@@ -6,10 +6,16 @@ button{
     color: #ffffff;
     font-family: 'Roboto', sans-serif;
 }
-button:hover{
+.button:hover{
     background-color: indigo;
     color: white;
 }
-button:active{
+.button:active{
     background-color: indigo;
+}
+.button-small{
+    width: 40px;
+    padding: 10px ;
+    border-radius: 3px;
+    font-size: 16px;
 }
