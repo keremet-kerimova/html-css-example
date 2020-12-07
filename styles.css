@@ -6,3 +6,7 @@ button{
     color: #ffffff;
     font-family: 'Roboto', sans-serif;
 }
+button:hover{
+    background-color: indigo;
+    color: white;
+}
