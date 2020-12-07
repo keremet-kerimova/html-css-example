@@ -10,3 +10,6 @@ button:hover{
     background-color: indigo;
     color: white;
 }
+button:active{
+    background-color: indigo;
+}
