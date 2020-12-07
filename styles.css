@@ -30,3 +30,12 @@
 .button-ok{
     border: hsl(125, 100%, 50%);
 }
+button:disable{
+    border: hsl(70, 80%, 100%);
+}
+.button-ok:hover{
+    background-color: hsl(211, 100%, 50%);
+}
+.button-notok:hover{
+    background-color: indigo;
+}
