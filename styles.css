@@ -24,3 +24,9 @@
     font-size: 20px;
     border-radius: 5px;
 }
+.button-notok{
+    border: hsl(0, 100%, 50%);
+}
+.button-ok{
+    border: hsl(125, 100%, 50%);
+}
