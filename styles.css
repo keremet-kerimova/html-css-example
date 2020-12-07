@@ -19,3 +19,8 @@
     border-radius: 3px;
     font-size: 16px;
 }
+.button-larg{
+    padding: 8px 6px;
+    font-size: 20px;
+    border-radius: 5px;
+}
