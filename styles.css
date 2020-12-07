@@ -1,3 +1,8 @@
+:root{
+    --hue-default: 221;
+    --hue-ok: 111;
+    --hue-notok:11;
+}
 .button{
     display: inline-block;
     padding: 12px 6px;
@@ -25,13 +30,13 @@
     border-radius: 5px;
 }
 .button-notok{
-    border: hsl(0, 100%, 50%);
+    background-color: hsl(var(--hue-notok),11);
 }
 .button-ok{
-    border: hsl(125, 100%, 50%);
+   background-color: hsl(var(--hue-ok),111);
 }
 button:disable{
-    border: hsl(70, 80%, 100%);
+    background-color: hsl(var(--hue-default),211);
 }
 .button-ok:hover{
     background-color: hsl(211, 100%, 50%);
