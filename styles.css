@@ -1,5 +1,6 @@
 button{
     display: inline-block;
     padding: 12px 6px;
+    border-radius: 4px;
 
 }
